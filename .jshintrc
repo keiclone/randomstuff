@@ -3,5 +3,7 @@
         "node" : false,
         "esversion" : 6,
         "laxcomma" : true,
-        "loopfunc" : true
+        "loopfunc" : true,
+        "notypeof" : true,
+        "bitwise" : true
 }
