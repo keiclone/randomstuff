@@ -1,0 +1,11 @@
+{
+        "parserOptions" : {
+                "ecmaVersion" : 6,
+                "ecmaFeatures" : { "impliedStrict" : true }
+        },
+        "extends" : "eslint:recommended",
+"rules" : {
+        "no-unused-vars" : "off"
+
+}
+}
