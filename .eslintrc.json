@@ -4,8 +4,8 @@
                 "ecmaFeatures" : { "impliedStrict" : true }
         },
         "extends" : "eslint:recommended",
-"rules" : {
-        "no-unused-vars" : "off"
+        "rules" : {
+                "no-unused-vars" : "off"
 
-}
+        }
 }
