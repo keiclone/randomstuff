@@ -1,0 +1,7 @@
+{
+        "browser" : false,
+        "node" : false,
+        "esversion" : 6,
+        "laxcomma" : true,
+        "loopfunc" : true
+}
