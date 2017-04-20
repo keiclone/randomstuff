@@ -5,7 +5,16 @@
         },
         "extends" : "eslint:recommended",
         "rules" : {
+                "no-undef" : "off",
                 "no-unused-vars" : "off",
-        "no-bitwise" : "error"
+                "no-bitwise" : "error",
+                "no-new" : "error",
+                "no-new-wrappers" : "error",
+                "no-with" : "error",
+                "comma-dangle" : ["warn", "never"],
+                "no-lonely-if" : "error",
+                "complexity" : "warn",
+
+                "indent" : ["warn", 4]
         }
 }
