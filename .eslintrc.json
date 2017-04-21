@@ -14,7 +14,11 @@
                 "comma-dangle" : ["warn", "never"],
                 "no-lonely-if" : "error",
                 "complexity" : "warn",
+                "indent" : ["warn", 4],
+                "brace-style" : ["error", "stroustrup"],
+                "comma-style" : ["error", "first"],
+                "block-spacing" : ["error", "always"],
+                "space-before-blocks" : ["error", "always"]
 
-                "indent" : ["warn", 4]
         }
 }
