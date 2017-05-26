@@ -5,9 +5,6 @@ set -o emacs
 export LANG=en_US.UTF-8
 
 export PS1="\[\e[00;37m\]\u@\h [\t] \n\w \\$ \[\e[0m\]"
-export PATH=${PATH}:/home/dkurtzbe/local/${OSTYPE}/bin:/home/phab/bin:/home/wwong295/scripts
-export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/dkurtzbe/local/${OSTYPE}/lib:$BLPAPI_ROOT/Linux
-export BLPAPI_ROOT=/bb/mbig/mbig3931/utils/blpapi_cpp_3.8.8.1
 #export MANPATH=$MANPATH:/home/user/wilwong/utils/tmux/share/man
 
 
