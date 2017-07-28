@@ -1,4 +1,7 @@
 set -o emacs
+set -o noclobber
+
+export EDITOR="vim"
 
 #bind '"\C-b": beginning-of-line'
 
