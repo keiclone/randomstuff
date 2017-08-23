@@ -1,4 +1,5 @@
-execute pathogen#infect
+" Remember to install pathogen in ~/.vim/autoload/pathogen.vim
+execute pathogen#infect()
 
 " When started as "evim", evim.vim will already have done these settings.
 if v:progname =~? "evim"
