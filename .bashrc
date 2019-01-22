@@ -7,7 +7,7 @@ export EDITOR="vim"
 
 export LANG=en_US.UTF-8
 
-export PS1="\[\e[00;37m\]\u@\h [\t] \n\w \\$ \[\e[0m\]"
+export PS1="\[\e[00;35m\]\u@\h [\t]  \[\e[0;32m\]\n\w \\$ \[\e[0m\]"
 #export MANPATH=$MANPATH:/home/user/wilwong/utils/tmux/share/man
 
 
