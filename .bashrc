@@ -8,12 +8,19 @@ export EDITOR="vim"
 export LANG=en_US.UTF-8
 
 export PS1="\[\e[00;35m\]\u@\h [\t]  \[\e[0;32m\]\n\w \\$ \[\e[0m\]"
-#export MANPATH=$MANPATH:/home/user/wilwong/utils/tmux/share/man
 
 
-#random bash aliases and functions
+# random bash aliases and functions
 alias ls="ls --color=auto --classify -lthrs"
 alias rm='rm -i'
+
+# kgb = kill git branch
+kgb(){
+  git checkout master
+  git fetch -p
+  git pull
+  git branch -D "$1"
+}
 
 mkcd() {
   case "$1" in /*) :;; *) set -- "./$1";; esac
