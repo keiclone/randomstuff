@@ -1,0 +1,25 @@
+{
+    "workbench.colorTheme": "Abyss",
+    "git.autofetch": true,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.editor.enablePreview": false,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/*.pyc": true,
+        "**/env": true
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+    },
+    "python.formatting.provider": "black",
+    "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
+    "files.eol": "\n",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+}
