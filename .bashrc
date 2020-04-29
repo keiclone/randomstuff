@@ -15,7 +15,8 @@ export PROMPT='%(?.%F{green}√.%F{red}?%?)%f %F{blue}[%T] %B%F{240}%3~%f%b %# '
 
 
 # random bash aliases and functions
-alias ls="ls --color=auto --classify -lthrs"
+# OLD: alias ls="ls --color=auto --classify -lthrs"
+alias ls="ls -GFlthrs"
 alias rm='rm -i'
 
 # kgb = kill git branch
